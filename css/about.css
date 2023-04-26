@@ -1,0 +1,287 @@
+
+.mainvisual{
+  position: relative;
+  box-sizing: border-box;
+  background: linear-gradient(#222,#777);
+  text-align: center;
+  padding-top: 120px;
+  margin-top: 20px;
+  width: 100%;
+  height: 300px;
+  color: #fff;
+}
+
+.mainvisual h2{
+  font-size: 1.5rem;
+}
+
+.mainvisual h3{
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: normal;
+}
+
+.sub_title{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.manegement{
+  box-sizing: border-box;
+  margin: 100px auto 0;
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.manegement h3{
+  margin-top: 30px;
+}
+
+.manegement p{
+  margin-top: 20px;
+  line-height: 1.5rem;
+}
+
+.message{
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 50px auto 0;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.message_pic{
+  margin: 30px auto 0;
+  width: 70%;
+  height: 300px;
+}
+
+.message_pic img{
+  width: 100%;
+  height: 300px;
+}
+
+.message p{
+  margin-top: 20px;
+  line-height: 1.5rem;
+}
+
+.histry{
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 50px auto 0;
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+.histry_block{
+   margin-top: 40px;
+}
+
+.histry_box{
+  margin-top: 30px;
+}
+
+.histry_number h3{
+   margin: 0 auto;
+   background-color: #333;
+   width: 150px;
+   height: 150px;
+   line-height: 150px;
+   border-radius: 50%;
+   color: #fff;
+}
+
+.histry_text{
+  margin-top: 30px;
+  text-align: left;
+}
+
+.overview{
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 50px auto 0;
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+.overview_map{
+  margin: 40px auto 0;
+  width: 70%;
+  height: 300px;
+}
+
+.overview_map img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.overview_information{
+  margin-top: 30px;
+}
+
+.overview_information h3{
+  font-size: 1.2rem;
+}
+
+.overview_information p{
+  margin-top: 20px;
+}
+
+.pc-only{
+  display: none;
+}
+
+@media(min-width:870px){
+  
+  .mainvisual{
+    position: static;
+    background: linear-gradient(#222,#777);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+    height: 370px;
+    color: #fff;
+  }
+
+  .mainvisual_title{
+    margin-right: 50px;
+  }
+  
+  .mainvisual h2{
+    font-size: 2rem;
+  }
+  
+  .mainvisual h3{
+    position: static;
+    transform: none;
+    margin-left: 50px;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  .sub_title{
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+  .manegement{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px auto 0;
+    max-width: 800px;
+    align-items: center;
+    padding: 0;
+  }
+
+  .manegement_title{
+    margin: 0 auto;
+  }
+
+  .manegement_text{
+    width: 50%;
+  }
+  
+  .manegement h3{
+    margin-top: 0;
+  }
+
+  .message{
+    padding: 0;
+  }
+  
+  .message_pic{
+    margin: 30px auto 0;
+    width: 70%;
+    height: 300px;
+  }
+  
+  .message_pic img{
+    width: 100%;
+    height: 300px;
+  }
+  
+  .message p{
+    margin: 20px auto 0;
+    max-width: 600px;
+    line-height: 1.5rem;
+  }
+
+  .histry{
+    padding: 0;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .histry_block{
+     margin-top: 40px;
+  }
+  
+  .histry_box{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .histry_number h3{
+     margin: 0 auto;
+     background-color: #333;
+     width: 150px;
+     height: 150px;
+     line-height: 150px;
+     border-radius: 50%;
+     color: #fff;
+  }
+  
+  .histry_text{
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: left;
+  }
+
+  .overview{
+    padding: 0;
+    text-align: center;
+  }
+
+  .overview_flex{
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .overview_map{
+    width: 700px;
+  }
+  
+  .overview_information{
+    width: 300px;
+  }
+  
+  .overview_information h3{
+    font-size: 1.4rem;
+  }
+  
+  .overview_information p{
+    margin-top: 24px;
+  }
+
+  .pc-only{
+    display: block;
+  }
+
+  
+}

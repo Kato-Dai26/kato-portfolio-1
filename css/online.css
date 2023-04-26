@@ -1,0 +1,294 @@
+@charset "UTF-8";
+
+form{
+  margin-top: 40px;
+}
+
+.search_area{
+  text-align:center;
+}
+
+input[type="search"]{
+  width: 250px;
+  height: 30px;
+}
+
+.online_genre{
+  background-color: #999;
+  padding: 5px 0;
+  margin-top: 20px;
+}
+
+.online_genre ul{
+  display: flex;
+  justify-content: center;
+}
+
+.online_genre_list + .online_genre_list{
+  margin-left: 20px;
+}
+
+.online_genre ul li a{
+  color: #fff;
+}
+
+.mainvisual{
+  box-sizing: border-box;
+  background-image: url("../img/shopping.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 10px 0 0;
+  height: 60vh;
+  text-align: right;
+  font-size: 1.8rem;
+  color: rgb(255, 25, 0);
+}
+
+.mainvisual span{
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+.sub_title{
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.category{
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.category_area{
+  margin-top: 30px;
+}
+
+.category_area ul{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.category_area ul li{
+  padding: 10px 0 20px;
+  width: 48%;
+  text-align: left;
+  border-top:1px solid #999 ;
+}
+
+.category_area ul li:nth-child(11),
+.category_area ul li:nth-child(12){
+  border-bottom:1px solid #999 ;
+}
+
+.category_area ul li a{
+  position: relative;
+  display: block;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.category_area ul li a::after{
+  content: "";
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border-top: solid 1px #333;
+  border-right: solid 1px #333;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+}
+
+.ranking{
+  box-sizing: border-box;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.ranking_area{
+  margin-top: 30px;
+}
+
+.ranking_area ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ranking_area ul li{
+  margin-top: 30px;
+  width: 45%;
+}
+
+.ranking_pic{
+  height: 250px;
+}
+
+.ranking_pic img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.ranking_area h3{
+  margin-top: 15px;
+  font-size: 0.8rem;
+}
+
+.ranking_area p{
+  margin-top: 15px;
+  font-size: 0.8rem;
+}
+
+
+.styling{
+  box-sizing: border-box;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.styling_area{
+  margin-top: 30px;
+}
+
+.styling_area ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.styling_area ul li{
+  margin-top: 30px;
+  width: 45%;
+}
+
+.styling_pic{
+  height: 250px;
+}
+
+.styling_pic img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.styling_area h3{
+  margin-top: 15px;
+  font-size: 0.8rem;
+}
+
+.styling_area p{
+  margin-top: 15px;
+  font-size: 0.8rem;
+}
+
+.styling span{
+  margin-left: 5px;
+  color: rgb(255, 25, 0);
+}
+
+@media(min-width:870px){
+  
+  input[type="search"]{
+    width: 300px;
+    height: 40px;
+  }
+
+  input[type="submit"]{
+    width: 50px;
+    height: 40px;
+  }
+
+  .online_genre{
+    padding: 8px 0;
+  }
+  
+  .online_genre_list + .online_genre_list{
+    margin-left: 60px;
+  }
+  
+  .online_genre ul li a{
+    font-size: 1.5rem;
+  }
+
+  .mainvisual{
+    padding: 60px 50px 0 0;
+    height: 90vh;
+    font-size: 3rem;
+  }
+  
+  .mainvisual span{
+    font-size: 3.3rem;
+  }
+
+  .sub_title{
+    font-size: 1.7rem;
+  }
+  
+  .category{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 50px auto 0;
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  .category_area{
+    margin-top: 30px;
+  }
+  
+  .category_area ul li{
+    padding: 20px 0 30px;
+    width: calc((100% - 30px) / 4);
+  }
+  
+  .category_area ul li:nth-child(9),
+  .category_area ul li:nth-child(10),
+  .category_area ul li:nth-child(11),
+  .category_area ul li:nth-child(12){
+    border-bottom:1px solid #999 ;
+  }
+  
+  .category_area ul li a{
+    font-size: 0.9rem;
+  }
+  
+  .category_area ul li a::after{
+    width: 9px;
+    height: 9px;
+  }
+
+  .ranking{
+    margin: 50px auto 0;
+    max-width:  1000px;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .ranking_area h3{
+    font-size: 1rem;
+  }
+  
+  .ranking_area p{
+    font-size: 1rem;
+  }
+
+  .styling{
+    margin: 50px auto 0;
+    max-width: 1000px;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .styling_area h3{
+    font-size: 1rem;
+  }
+  
+  .styling_area p{
+    font-size: 1rem;
+  }
+}

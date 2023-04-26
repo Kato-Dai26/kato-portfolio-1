@@ -1,0 +1,334 @@
+@charset "UTF-8";
+
+.sub-title{
+  padding: 30px 0;
+  font-size: 1.3rem;
+}
+
+.main-btn{
+  margin: 30px auto;
+}
+
+.main-btn a{
+  color: #333;
+  text-decoration: underline;
+}
+
+.main-btn a::after{
+  content: '→';
+  color: rgb(201, 13, 13);
+}
+
+.mainvisual{
+  background-image: url("../img/nike-g2030dbd42_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40% 0 0 20%;
+  margin-top: 20px;
+  height: 300px;
+  font-size: 1.7rem;
+  line-height: 2.3rem;
+  color: #78e075;
+}
+
+.about{
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+.about h3{
+  font-size: 1.2rem;
+}
+
+.pc-only{
+  display: none;
+}
+
+.about p{
+  padding: 30px;
+  text-align: left;
+}
+
+.about-histry{
+  display: none;
+}
+
+.brand{
+  margin: 0 auto ;
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+.brand-flex + .brand-flex{
+  margin-top: 20px;
+}
+
+.brand-pic{
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+
+.brand-pic img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.news{
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+.new_item_area{
+  margin-top: 30px;
+}
+
+.mini_title{
+  box-sizing: border-box;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.new_item_pic{
+  margin: 0 auto;
+  width: 260px;
+  height: 300px;
+}
+
+.new_item_pic img{
+  width: 100%;
+  height: 300px;
+}
+
+.new_item_box + .new_item_box{
+  margin-top: 50px;
+}
+
+.new_item_box h4{
+  font-size: 1.2rem;
+}
+
+.arrival_block{
+  margin-top: 30px;
+}
+
+.arrival_block_area{
+  margin-top: 30px;
+}
+
+.arrival_block_box{
+  padding: 0 20px;
+}
+
+.arrival_block_box + .arrival_block_box{
+  margin-top: 50px;
+}
+
+.arrival_block_pic{
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+.arrival_block_pic img{
+  width: 100%;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.arrival_block_box p{
+  padding:20px 0 10px 0;
+  border-bottom: solid 1px #333;
+}
+
+.new_shop_block{
+  margin-top: 30px;
+}
+
+.online{
+   margin-top: 50px;
+   text-align: center;
+}
+ 
+.online_btn{
+  background-color: #777;
+  display: inline-block;
+  padding: 20px 50px;
+  color: #fff;
+  border: solid 1px #333;
+}
+
+.slider{
+  margin-top: 30px;
+  visibility: hidden;
+}
+
+.slider.slick-initialized{
+  visibility: visible;
+}
+
+.slider_pic{
+  width: 200px;
+  height: 300px;
+}
+
+.slider_pic img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.slick-prev {
+  left: 0px;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'slick';
+  font-size: 30px;
+  line-height: 1;
+  opacity: 1;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media(min-width:870px){
+
+  .sub-title{
+    padding: 30px 0;
+    font-size: 1.7rem;
+  }
+  
+  .mainvisual{
+    box-sizing: border-box;
+    padding: 250px 150px 150px 150px;
+    margin-top: 0;
+    width: 100vw;
+    height: 100vh;
+    font-size: 3rem;
+    line-height: 4.5rem;
+  }
+
+  .about{
+    text-align: center;
+  }
+
+  .pc-only{
+    display: block;
+  }
+  
+  .about p{
+    text-align: center;
+  }
+
+  .about-histry{
+    display: block;
+  }
+
+  .histry{
+    padding: 0;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .histry_block{
+     display: flex;
+     margin-top: 30px;
+  }
+  
+  .histry_number h4{
+     margin: 0 auto;
+     background-color: #333;
+     width: 150px;
+     height: 150px;
+     line-height: 150px;
+     border-radius: 50%;
+     color: #fff;
+  }
+  
+  .histry_text{
+    text-align: left;
+  }
+  
+  .brand-pics{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .brand-flex + .brand-flex{
+    margin-top:  0;
+  }
+  
+  .brand-pic{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .new_item_area{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .new_item_pic{
+    margin: 0 auto;
+    width: 180px;
+  }
+  
+  .new_item_box + .new_item_box{
+    margin-top: 0;
+  }
+  
+  .new_item_box h4{
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .arrival_block_area{
+    margin: 30px auto 0;
+    max-width: 500px;
+  }
+  
+  .arrival_block_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .arrival_block_box + .arrival_block_box{
+    margin-top: 50px;
+  }
+  
+  .arrival_block_pic{
+    margin:0;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .arrival_block_pic img{
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .arrival_block_box p{
+    padding:0;
+    text-align: left;
+    border-bottom: solid 1px #333;
+  }
+}
