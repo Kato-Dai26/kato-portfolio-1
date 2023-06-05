@@ -2,7 +2,7 @@
 
 .sub-title{
   padding: 30px 0;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 .main-btn{
@@ -80,6 +80,10 @@
   vertical-align: bottom;
 }
 
+.brand-desc{
+  margin-top: 20px;
+}
+
 .news{
   margin: 0 auto;
   max-width: 1000px;
@@ -106,6 +110,7 @@
 .new_item_pic img{
   width: 100%;
   height: 300px;
+  object-fit: cover;
 }
 
 .new_item_box + .new_item_box{
@@ -113,6 +118,7 @@
 }
 
 .new_item_box h4{
+  margin-top: 20px;
   font-size: 1.2rem;
 }
 
@@ -210,7 +216,7 @@
 
   .sub-title{
     padding: 30px 0;
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
   
   .mainvisual{
@@ -278,7 +284,7 @@
     width: 150px;
     height: 150px;
   }
-  
+
   .new_item_area{
     display: flex;
     justify-content: space-around;
@@ -296,6 +302,10 @@
   .new_item_box h4{
     margin-top: 10px;
     font-size: 1.2rem;
+  }
+
+  .arrival_block{
+    margin-top: 50px;
   }
   
   .arrival_block_area{
@@ -330,5 +340,9 @@
     padding:0;
     text-align: left;
     border-bottom: solid 1px #333;
+  }
+
+  .new_shop_block{
+    margin-top: 50px;
   }
 }
