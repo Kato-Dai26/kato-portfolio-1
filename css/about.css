@@ -40,10 +40,12 @@
 
 .manegement h3{
   margin-top: 30px;
+  text-decoration: underline;
 }
 
 .manegement p{
   margin-top: 20px;
+  font-size: 0.9rem;
   line-height: 1.5rem;
 }
 
@@ -68,6 +70,7 @@
 
 .message p{
   margin-top: 20px;
+  font-size: 0.9rem;
   line-height: 1.5rem;
 }
 

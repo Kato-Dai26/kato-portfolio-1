@@ -48,6 +48,7 @@
 
 .about p{
   padding: 30px;
+  font-size: 0.9rem;
   text-align: left;
 }
 
@@ -235,6 +236,10 @@
 
   .pc-only{
     display: block;
+  }
+
+  .about-message p{
+    font-size: 0.9rem;
   }
   
   .about p{
